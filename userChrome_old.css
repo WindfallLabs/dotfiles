@@ -1,0 +1,116 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* set default namespace to XUL */
+      
+/* Autohide bookmark toolbar */
+#PersonalToolbar {
+  visibility: collapse !important;
+}
+
+#navigator-toolbox:hover > #PersonalToolbar {
+  visibility: visible !important;
+  margin-top: -8px !important;
+  margin-bottom: -8px !important;
+}
+/* Kill bookmark icons in the Personal Toolbar */
+toolbarbutton.bookmark-item > .toolbarbutton-icon {
+  display: none;
+}
+
+/* Kill "normal" bookmark icons in the bookmarks menu */
+menuitem.bookmark-item > .menu-iconic-left {
+  display: none;
+}
+
+
+/* Addr Bar /*
+#status-bar {
+  -moz-appearance: none !important;
+  font-family: "Envy Code R" !important;
+  font-size: 9 pt !important;
+}
+/*
+#nav-bar {
+  -moz-appearance: none !important;
+  font-family: "Envy Code R" !important;
+  color: #FFBF00 !important;
+  background: #000000 !important;
+}
+/*
+
+textbox#urlbar, #searchbar > *, #search-box {
+  border: none !important;
+  font-family: "Envy Code R" !important;
+  font-size: 9 !important;
+  background-color: #363636 !important;
+}
+	
+/* Tab bar */
+.tab-background {
+  opacity: 0 !important;
+  color: #000000 !important;
+}
+
+#tabbrowser-tabs {
+  min-height: 16px !important;
+  height: 16px !important;
+}
+
+.tab-text {
+  font-family: "Envy Code R" !important;
+  font-size: 9 !important;
+}
+
+.tab-content {
+  margin-top: -10px !important;
+}   
+#TabsToolbar {
+  margin-bottom: 1px !important;
+}
+.tabbrowser-tab {
+  border-top: 0px #F0F0F0 solid !important;
+  border-radius: 5px !important ;
+  background: #090909 !important;
+}
+
+.tab-icon-image, .tab-throbber, .tab-close-button {
+  display: none !important;
+}
+
+.tabbrowser-tab[selected] {
+  background: #323232 !important;
+  color: #FFBF00 !important;
+}
+
+.tabs-newtab-button {
+  display: none !important;
+  margin-top: -10px !important;
+  background: unset!important;
+}
+
+.tabbrowser-tab: not([selected]) {
+  color: #323232 !important;
+}
+
+.tabbrowser-tab:not([selected]):hover {
+  text-decoration: underline !important;
+}
+
+
+/*Frank Small Icon Mode...*/
+/*
+#back-button > .toolbarbutton-icon {
+  border-radius: 0px !important;
+  -moz-image-region: rect(0, 54px, 18px, 36px) !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+*/
+
+osearchbar er-tabs {
+  max-height : 10px !important;
+}
+
+.tab-content,.tabs-newtab-button {
+  margin-bottom: 5px !important;
+}
+
+/* autocomplete-textbox::-moz-placeholder,#urlbar .autocomplete-textbox::-moz-placeholder {  color: transparent !important; } /*

@@ -1,0 +1,60 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#back-button, #appmenu-toobar-button, 
+#window-controls, #browser-bottombox, #status-bar, 
+#nav-bar {
+  display: none !important;
+}
+
+.tab-close-button, .tab-icon-image, .tab-throbber, 
+.tabs-newtab-button {
+  display: none !important;
+}
+
+.tabpanels {
+  -moz-appearance: none !important;
+}
+
+
+#nav-bar, #status-bar {
+  -moz-appearance: non !important;
+  font-family: "Envy Code R" !important;
+  font-size: 9 !important;
+  background-color: #323232 !important;
+  color: #FFBF00 !important;
+}
+
+.tab-text {
+  font-family: "Envy Code R" !important;
+  font-size: 8 !important;
+  color: #FFBF00 !important;
+}
+
+
+.tab-content {
+  margin-top: -10px !important;
+  margin-bottom: 0px !important;
+}
+
+.tabbrowser-tab {
+  border: none !important;
+  border-radius: 0px !important;
+  padding: 5px 2px 1px 0px !important;
+}
+
+.tabbrowser-tabs {
+  border: none !important;
+  min-height: 18px !important;
+  height: 18px !important;
+  background: transparent !important;
+  background-color: #000000 !important;
+}
+
+.tabbrowser-tab[selected="true"] {
+  background-color: #323232 !important;
+}
+
+/*Remove tabs*/
+.tab-background {
+  display: none !important;
+}
