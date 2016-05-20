@@ -1,0 +1,52 @@
+!-----------------------------------
+! 70s Coozie - By MapImbibery
+*background: #141414
+*foreground: #948849
+!
+! black
+*color0: #663333
+!
+! bright_black
+*color8: #704141
+!
+! red
+*color1: #732230
+!
+! bright_red
+*color9: #732230
+!
+! green
+*color2: #404738
+!
+! bright_green
+*color10: #404738
+!
+! yellow
+*color3: #91861E
+!
+! bright_yellow
+*color11: #82772E
+!
+! blue
+*color4: #3a8679
+!
+! bright_blue
+*color12: #428b7e
+!
+! magenta
+*color5: #d7773b
+!
+! bright_magenta
+*color13: #d97d44
+!
+! cyan
+*color6: #339966
+!
+! bright_cyan
+*color14: #3b9d6c
+!
+! white
+*color7: #FAFFC5
+!
+! bright_white
+*color15: #FAFFC5
